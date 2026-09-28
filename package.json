@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/lifthex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lift timestamps and hex durations for scripts and CI receipts.",
+  "bin": {
+    "lifthex": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/lifthex.git"
+  },
+  "homepage": "https://theworker02.github.io/lifthex/",
+  "keywords": [
+    "lift",
+    "hex",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
